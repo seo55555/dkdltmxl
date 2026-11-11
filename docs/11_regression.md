@@ -1,6 +1,7 @@
 # C-1
 - DAG 그림
-graph TD
+```mermaid
+[graph TD
     %% 노출과 결과
     Exposure["주중 수면 부족 (<8시간, 노출)"] --> Outcome["주관적 학업성적 (결과)"]
 
@@ -20,4 +21,4 @@ graph TD
     StudyTime --> Outcome
 
     Exposure --> Breakfast["아침식사 횟수 (F_BR)"]
-    Breakfast --> Outcome
+    Breakfast --> Outcome]
